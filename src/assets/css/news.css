@@ -1,0 +1,174 @@
+.press-updemo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+
+.press-updemo div:nth-child(1) {
+    width: 770px;
+    height: 100%;
+    border: 1px solid #666;
+    overflow: hidden;
+}
+
+.updemo-right div:nth-child(1) {
+    width: 370px;
+    height: 100%;
+    float: left;
+}
+
+.updemo-right div:nth-child(1):hover span main h1 {
+    color: rgb(221, 221, 79);
+}
+
+.updemo-right div:nth-child(1) span {
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.updemo-right span img {
+    height: 100%;
+    width: 100%;
+    transition: all 1s
+}
+
+.updemo-right div:nth-child(1):hover img {
+    transform: scale(1.05)
+}
+
+.updemo-right div:nth-child(2):hover img {
+    transform: scale(1.05)
+}
+
+.updemo-right span main {
+    width: 260px;
+    height: 240px;
+    margin: 55px 55px 0;
+    position: absolute;
+}
+
+.updemo-right span main h1 {
+    margin: 15px 0;
+}
+
+.updemo-right span main p {
+    margin: 5px 0;
+    color: #999;
+    font-size: 16px;
+}
+
+.updemo-right div:nth-child(2) {
+    width: 375px;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid #888;
+}
+
+.updemo-right div:nth-child(2) span {
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.updemo-right div:nth-child(2):hover span main h1 {
+    color: rgb(221, 221, 79);
+}
+
+.press-dndemo ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+.press-dndemo ul li {
+    width: 379px;
+    height: 300px;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px #888;
+}
+
+.press-dndemo ul li:hover main h1 {
+    color: rgb(221, 221, 79);
+}
+
+.press-dndemo li main {
+    width: 260px;
+    height: 240px;
+    margin: 55px 55px 0;
+    position: absolute;
+}
+
+.press-dndemo li main h1 {
+    margin: 15px 0;
+}
+
+.press-dndemo li main p {
+    margin: 5px 0;
+    color: #999;
+    font-size: 16px;
+}
+
+#newsD h1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 30px 0
+}
+
+#newsD .news_user {
+    position: absolute;
+    left: 600px;
+    color: #888;
+    font-size: 16px;
+}
+
+#newsD .show_t {
+    position: absolute;
+    left: 650px;
+    color: #888;
+    font-size: 16px;
+}
+
+#newsD .to_look {
+    position: absolute;
+    left: 750px;
+    color: #888;
+    font-size: 16px;
+}
+
+#newsD .back {
+    position: absolute;
+    left: 1100px;
+    color: #888;
+    font-size: 16px;
+    font-family: initial
+}
+
+#newsD .news_con {
+    position: relative;
+    top: 40px;
+    width: 1200px;
+    margin: 30px auto
+}
+
+#newsD p {
+    font-size: 15px;
+    color: #888;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto
+}
+
+#newsD .prev_next {
+    height: 70px;
+}
+
+#newsD .prev_next li {
+    height: 35px;  
+    line-height: 30px; 
+}

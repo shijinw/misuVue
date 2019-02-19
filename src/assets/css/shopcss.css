@@ -1,0 +1,300 @@
+.product-header {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper {
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 83px
+}
+
+.swiper img {
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    position: absolute;
+    animation-name: scal;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes scal {
+
+    /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+    0% {
+        transform: scale(1);
+        /*开始为原始大小*/
+    }
+
+    25% {
+        transform: scale(1.02);
+        /*放大1.1倍*/
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.02);
+    }
+}
+
+.switt {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    color: rgb(231, 227, 227)
+}
+
+.switt span {
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.switt p {
+    font: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px
+}
+
+.switt div {
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    text-indent: 1rem;
+    line-height: 35px;
+    background: #fdd746b8
+}
+
+.product-body {
+
+    position: relative
+}
+
+.product-html {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.product-html ul {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.product-html li {
+    margin: 20px;
+    overflow: hidden;
+    width: 350px;
+    height: 330px;
+    transition: all 1s;
+}
+
+.product-html li:hover {
+    box-shadow: 1px 8px 20px #6e7881;
+}
+
+.product-html li:hover img {
+    transform: scale(1.1)
+}
+
+.product-html li div {
+    width: 350px;
+    height: 275px;
+    overflow: hidden;
+}
+
+.product-html li img {
+    width: 350px;
+    height: 275px;
+    transition: all 1s
+}
+
+.product-html li p {
+    width: 350px;
+    height: 55px;
+    background: white;
+    line-height: 55px;
+    text-align: center;
+    font-size: 22px;
+    color: #898989;
+}
+
+
+#datais iframe {
+    width: 100%;
+    height: 1520px;
+    position: relative;
+    top: -70px;
+}
+
+#datais .s_location {
+    padding-top: 40px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#datais .s_location main {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#datais .s_location main .location {
+    height: auto;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: 26px;
+    font-family: 'microsoft yahei', 'Microsoft YaHei', SimHei, sans-serif;
+    font-size: 14px;
+    color: #898989;
+}
+
+#datais .s_location main .left {
+    width: 20%;
+    float: left;
+    font-family: "microsoft yahei", "Microsoft YaHei", SimHei, sans-serif;
+    font-size: 18px;
+    color: #383838;
+    height: 66px;
+    line-height: 66px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 50px;
+    position: relative;
+    text-align: left;
+}
+
+#datais .s_location main .location a {
+    font-family: "microsoft yahei", "Microsoft YaHei", SimHei, sans-serif;
+    font-size: 14px;
+    color: #898989;
+}
+
+#datais .s14 {
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+#datais main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#datais .s14 .s14_des {
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 30px;
+    background: #fff;
+}
+
+#datais .s14 .s14_des .left {
+    width: 50%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+
+#datais .s14 .s14_des .right {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+}
+
+#datais .s14 .s14_des .right .w1 {
+    font-family: "microsoft yahei", "Microsoft YaHei", SimHei, sans-serif;
+    font-size: 24px;
+    color: #1b1b1b;
+    height: 60px;
+    line-height: 60px;
+}
+
+#datais .s14 .s14_des .right .w2 {
+    width: 100%;
+    height: 1px;
+    background: #d8d8d8;
+}
+
+#datais .s14 .s14_des .right .w3 {
+    overflow-y: auto;
+    height: 300px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+#datais .s14 .s14_ul {
+    margin-top: 50px;
+    padding-bottom: 60px;
+    height: 730px;
+}
+
+#datais .s14 .s14_ul .pro-swiper {
+    height: 730px;
+}
+
+#datais .swiper-wrapper  {
+    width: 100%;
+    height: 580px;
+    margin: 50px 0;
+}
+
+#datais .swiper-slide:nth-child(1) {
+    width: 100%;
+    height: 580px;
+    max-width: 1200px;
+    
+}
+
+#datais .swiper-slide:nth-child(2) {
+    width: 230px;
+    height: 150px;
+    margin: 25px 5px;
+    float: left;
+}
+#datais .swiper-slide:nth-child(3) {
+    width: 230px;
+    height: 150px;
+    margin: 25px 5px;
+    float: left;
+}
+#datais .swiper-slide:nth-child(4) {
+    width: 230px;
+    height: 150px;
+    margin: 25px 5px;
+    float: left;
+}
+#datais .swiper-slide:nth-child(5) {
+    width: 230px;
+    height: 150px;
+    margin: 25px 5px;
+    float: left;
+}
+#datais .swiper-slide:nth-child(6) {
+    width: 230px;
+    height: 150px;
+    margin: 25px 5px;
+    float: left;
+}
